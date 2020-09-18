@@ -1,0 +1,41 @@
+body{
+    background-color: #f4f4f4;
+    line-height: 1.67;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+    color: white;
+    background-color: blue;
+    width: 60px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    text-align: center;
+    
+   }
+.item{
+    background-color: blue;
+    width: 18%;
+}
+.parent{
+  
+    height: 40px;
+}
+.seriaNo{
+   width: 10%;
+    
+}
+.container>div{
+    margin: 1px;
+    background-color: coral;
+}
+#errorMessage{
+    background-color: red;
+    color: white;
+    width: 300px;
+}
